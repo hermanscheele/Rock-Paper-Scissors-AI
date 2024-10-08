@@ -7,7 +7,7 @@ const fingerJoints = {
 };
 
 
-export const drawHand = (predictions, ctx, lineColor = "white", lineWidth = 7, dotColor = "red", dotSize = 9) => {
+export const drawHand = (predictions, ctx, lineColor = "white", lineWidth = 7, dotColor = "blue", dotSize = 9) => {
     if (predictions.length > 0) {
         predictions.forEach((prediction) => {
             const landmarks = prediction.landmarks;
